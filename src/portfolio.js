@@ -10,9 +10,9 @@ const illustration = {
 
 const greeting = {
   username: "Marriane Akeyo",
-  title: "Hi all, I'm Marriane",
+  title: "Hello, I'm Marriane",
   subTitle: emoji(
-    "👋 Hello, I'm a seasoned data engineer  expirienced in designing robust data pipelines, optimizing data workflows and ensuring data reliability for informed decision-making. I also have  a strong foundation in software engineering speifically backend development. I've honed my skills to seamlessly bridge the gap between data and applications. Here's a glimpse into my world of data engineering:."
+    "I'm a seasoned data engineer  expirienced in designing robust data pipelines, optimizing data workflows and ensuring data reliability for informed decision-making. I also have  a strong foundation in software engineering specifically backend development. I've honed my skills to seamlessly bridge the gap between data and applications."
   ),
   resumeLink:
     "https://drive.google.com/file/d/18SWkuh7NavM5pABm--ks0HVrpBEcMPWj/view?usp=drive_link",
@@ -37,15 +37,21 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
+  title: "My skills !!!",
   subTitle: "CRAZY DATA ENGINEER PASSIONATE ABOUT BRIDGING THE GAP BETWEEN DATA AND SOFTWARE ENGINEERING",
   skills: [
     emoji(
-      "⚡ Creating robust and highly scalable pipelines that transfer data from applications to warehouses "
+      "⚡ Designed and implemented efficient ETL (Extract, Transform, Load) pipelines to seamlessly transfer and transform large volumes of data between diverse sources and data warehouses."
     ),
-    emoji("⚡ Creating apis for bckend applications that implement business logic"),
+    emoji("⚡ Expertise in data modeling, ensuring optimal database structures for performance and scalability in support of analytical and reporting needs."),
     emoji(
-      "⚡ Designing well automated pipelines"
+      "⚡ Proficient in utilizing cloud-based data storage and processing solutions, such as AWS S3 and Redshift or Azure Blob Storage and SQL Data Warehouse."
+    ),
+    emoji(
+      "⚡ Hands-on experience with big data technologies, including Apache Spark, for processing and analyzing vast datasets efficiently."
+    ),
+    emoji(
+      "⚡ Automated routine tasks and processes, enhancing operational efficiency and reducing manual intervention in data workflows"
     )
   ],
 
@@ -53,142 +59,154 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    {
-      skillName: "Python",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    }
+    // {
+    //   skillName: "html-5",
+    //   fontAwesomeClassname: "fab fa-html5"
+    // },
+    // {
+    //   skillName: "css3",
+    //   fontAwesomeClassname: "fab fa-css3-alt"
+    // },
+    // {
+    //   skillName: "sass",
+    //   fontAwesomeClassname: "fab fa-sass"
+    // },
+    // {
+    //   skillName: "JavaScript",
+    //   fontAwesomeClassname: "fab fa-js"
+    // },
+    // {
+    //   skillName: "reactjs",
+    //   fontAwesomeClassname: "fab fa-react"
+    // },
+    // {
+    //   skillName: "nodejs",
+    //   fontAwesomeClassname: "fab fa-node"
+    // },
+    // {
+    //   skillName: "swift",
+    //   fontAwesomeClassname: "fab fa-swift"
+    // },
+    // {
+    //   skillName: "npm",
+    //   fontAwesomeClassname: "fab fa-npm"
+    // },
+    // {
+    //   skillName: "sql-database",
+    //   fontAwesomeClassname: "fas fa-database"
+    // },
+    // {
+    //   skillName: "firebase",
+    //   fontAwesomeClassname: "fas fa-fire"
+    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
 
 // Education Section
 
-// const educationInfo = {
-//   display: false, // Set false to hide this section, defaults to true
-//   schools: [
-//     {
-//       schoolName: "Harvard University",
-//       logo: require("./assets/images/harvardLogo.png"),
-//       subHeader: "Master of Science in Computer Science",
-//       duration: "September 2017 - April 2019",
-//       desc: "Participated in the research of XXX and published 3 papers.",
-//       descBullets: [
-//         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-//       ]
-//     },
-//     {
-//       schoolName: "Stanford University",
-//       logo: require("./assets/images/stanfordLogo.png"),
-//       subHeader: "Bachelor of Science in Computer Science",
-//       duration: "September 2013 - April 2017",
-//       desc:
-//         "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-//       descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-//     }
-//   ]
-// };
+const educationInfo = {
+  display: false, // Set false to hide this section, defaults to true
+  schools: [
+    {
+      schoolName: "Harvard University",
+      logo: require("./assets/images/harvardLogo.png"),
+      subHeader: "Master of Science in Computer Science",
+      duration: "September 2017 - April 2019",
+      desc: "Participated in the research of XXX and published 3 papers.",
+      descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]
+    },
+    {
+      schoolName: "Stanford University",
+      logo: require("./assets/images/stanfordLogo.png"),
+      subHeader: "Bachelor of Science in Computer Science",
+      duration: "September 2013 - April 2017",
+      desc:
+        "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+    }
+  ]
+};
 
 // Your top 3 proficient stacks/tech experience
 
-// const techStack = {
-//   viewSkillBars: true, //Set it to true to show Proficiency Section
-//   experience: [
-//     {
-//       Stack: "Frontend / Design", //Insert stack or technology you have experience in
-//       progressPercentage: "90%" //Insert relative proficiency in percentage
-//     },
-//     {
-//       Stack: "Backend",
-//       progressPercentage: "70%"
-//     },
-//     {
-//       Stack: "Programming",
-//       progressPercentage: "90%"
-//     }
-//   ],
-//   displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
-// };
+const techStack = {
+  viewSkillBars: true, //Set it to true to show Proficiency Section
+  experience: [
+    {
+      Stack: "Python", //Insert stack or technology you have experience in
+      progressPercentage: "90%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "SQL", //Insert stack or technology you have experience in
+      progressPercentage: "95%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Workflow Orcherstration",
+      progressPercentage: "70%"
+    },
+    {
+      Stack: "Cloud Platforms",
+      progressPercentage: "85%"
+    },
+    {
+      Stack: "Big Data Technologies(spark & kafka)", //Insert stack or technology you have experience in
+      progressPercentage: "70%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Data Modelling(dbt)", //Insert stack or technology you have experience in
+      progressPercentage: "80%" //Insert relative proficiency in percentage
+    }
+  ],
+  displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+};
 
 // Work experience section
 
-// const workExperiences = {
-//   display: true, //Set it to true to show workExperiences Section
-//   experience: [
-//     {
-//       role: "Software Engineer",
-//       company: "Clever Programmer",
-//       companylogo: require("./assets/images/cpLogo.png"),
-//       date: "September 2020 – Present",
-//       desc:
-//         "Changing lives of developers one line of code at a time.",
-//       descBullets: [
-//         "Custom building applications",
-//         "Coaching",
-//         "Streaming live on YouTube",
-//         "Creating tutorials"
-//       ]
-//     },
-//     {
-//       role: "Product Owner (PSD2)",
-//       company: "Erste Bank",
-//       companylogo: require("./assets/images/ersteLogo.jpg"),
-//       date: "July 2019 – September 2020",
-//       desc:
-//         "I lead software developers building the API for the bank in order to fulfil the PSD2 regulation requirements."
-//     },
-//     {
-//       role: "Junior Information Security & Systems Representative",
-//       company: "Vodafone",
-//       companylogo: require("./assets/images/vodafoneLogo.png"),
-//       date: "November 2018 – July 2019",
-//       desc:
-//         "I've conducted internal audit making sure the organization is compliant with the GDPR."
-//     }
-//   ]
-// };
+const workExperiences = {
+  display: false, //Set it to true to show workExperiences Section
+  experience: [
+    {
+      role: "Software Engineer",
+      company: "Clever Programmer",
+      companylogo: require("./assets/images/cpLogo.png"),
+      date: "September 2020 – Present",
+      desc:
+        "Changing lives of developers one line of code at a time.",
+      descBullets: [
+        "Custom building applications",
+        "Coaching",
+        "Streaming live on YouTube",
+        "Creating tutorials"
+      ]
+    },
+    {
+      role: "Product Owner (PSD2)",
+      company: "Erste Bank",
+      companylogo: require("./assets/images/ersteLogo.jpg"),
+      date: "July 2019 – September 2020",
+      desc:
+        "I lead software developers building the API for the bank in order to fulfil the PSD2 regulation requirements."
+    },
+    {
+      role: "Junior Information Security & Systems Representative",
+      company: "Vodafone",
+      companylogo: require("./assets/images/vodafoneLogo.png"),
+      date: "November 2018 – July 2019",
+      desc:
+        "I've conducted internal audit making sure the organization is compliant with the GDPR."
+    }
+  ]
+};
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "devmarrie", // Change to your github username to view your profile in Contact Section.
+  githubUserName: "drakosi99", // Change to your github username to view your profile in Contact Section.
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
   display: false // Set false to hide this section, defaults to true
 };
@@ -196,97 +214,116 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "SOME PERSONAL PROJECTS THAT I HAVE WORKED ON",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Real-Time Data Processing Pipeline",
+      projectDesc: "Designed and implemented a real-time data processing pipeline using Apache Kafka and Apache Flink to process and analyze streaming data from IoT devices. Achieved a 30% improvement in data processing speed, leading to faster decision-making for the organization.",
+      architectureImage: "./assets/images/saayaHealthLogo.webp",
+      technologies: "Technologies used: aws, airflow",
+      dashboardImage: "./assets/images/saayaHealthLogo.webp",
+      achievements: "Key Achievements: lorem ipsum",
       footerLink: [
         {
-          name: "Visit Website",
+          name: "Link To Project",
           url: "fa"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Cloud-Based ETL for Scalable Analytics",
+      projectDesc: "Developed a cloud-based ETL (Extract, Transform, Load) pipeline using Apache Spark on AWS, handling terabytes of data daily. Enhanced data quality and ensured timely delivery of analytics-ready datasets to downstream applications.",
+      architectureImage: "./assets/images/saayaHealthLogo.webp",
+      technologies: "Technologies used: aws, airflow",
+      dashboardImage: "./assets/images/saayaHealthLogo.webp",
+      achievements: "Key Achievements: lorem ipsum",
       footerLink: [
         {
-          name: "Visit Website",
-          url: ""
+          name: "Link To Project",
+          url: "fa"
         }
+        //  you can add extra buttons here.
       ]
     }
+    // {
+    //   image: require("./assets/images/saayaHealthLogo.webp"),
+    //   projectName: "Saayahealth",
+    //   projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    //   footerLink: [
+    //     {
+    //       name: "Visit Website",
+    //       url: "fa"
+    //     }
+    //     //  you can add extra buttons here.
+    //   ]
+    // }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
 // Include certificates, talks etc
 
-// const achievementSection = {
-//   title: emoji("Achievements And Certifications 🏆 "),
-//   subtitle:
-//     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+const achievementSection = {
+  title: emoji("Achievements And Certifications 🏆 "),
+  subtitle:
+    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
-//   achievementsCards: [
-//     {
-//       title: "Google Code-In Finalist",
-//       subtitle:
-//         "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-//       image: require("./assets/images/codeInLogo.webp"),
-//       footerLink: [
-//         {
-//           name: "Certification",
-//           url:
-//             ""
-//         },
-//         {
-//           name: "Award Letter",
-//           url:
-//             ""
-//         },
-//         {
-//           name: "Google Code-in Blog",
-//           url:
-//             ""
-//         }
-//       ]
-//     },
-//     {
-//       title: "Google Assistant Action",
-//       subtitle:
-//         "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-//       image: require("./assets/images/googleAssistantLogo.webp"),
-//       footerLink: [
-//         {
-//           name: "View Google Assistant Action",
-//           url:
-//             ""
-//         }
-//       ]
-//     },
+  achievementsCards: [
+    {
+      title: "Google Code-In Finalist",
+      subtitle:
+        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+      image: require("./assets/images/codeInLogo.webp"),
+      footerLink: [
+        {
+          name: "Certification",
+          url:
+            ""
+        },
+        {
+          name: "Award Letter",
+          url:
+            ""
+        },
+        {
+          name: "Google Code-in Blog",
+          url:
+            ""
+        }
+      ]
+    },
+    {
+      title: "Google Assistant Action",
+      subtitle:
+        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+      image: require("./assets/images/googleAssistantLogo.webp"),
+      footerLink: [
+        {
+          name: "View Google Assistant Action",
+          url:
+            ""
+        }
+      ]
+    },
 
-//     {
-//       title: "PWA Web App Developer",
-//       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-//       image: require("./assets/images/pwaLogo.webp"),
-//       footerLink: [
-//         {name: "Certification", url: ""},
-//         {
-//           name: "Final Project",
-//           url: ""
-//         }
-//       ]
-//     }
-//   ],
-//   display: false // Set false to hide this section, defaults to true
-// };
+    {
+      title: "PWA Web App Developer",
+      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+      image: require("./assets/images/pwaLogo.webp"),
+      footerLink: [
+        {name: "Certification", url: ""},
+        {
+          name: "Final Project",
+          url: ""
+        }
+      ]
+    }
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
 
 // Blogs Section
 
@@ -315,48 +352,48 @@ const blogSection = {
 
 // Talks Sections
 
-// const talkSection = {
-//   title: "TALKS",
-//   subtitle: emoji(
-//     ""
-//   ),
+const talkSection = {
+  title: "TALKS",
+  subtitle: emoji(
+    ""
+  ),
 
-//   talks: [
-//     {
-//       title: "",
-//       subtitle: "",
-//       slides_url: "",
-//       event_url: ""
-//     }
-//   ],
-//   display: false // Set false to hide this section, defaults to true
-// };
+  talks: [
+    {
+      title: "",
+      subtitle: "",
+      slides_url: "",
+      event_url: ""
+    }
+  ],
+  display: false // Set false to hide this section, defaults to true
+};
 
-// // Podcast Section
+// Podcast Section
 
-// const podcastSection = {
-//   title: emoji("Podcast 🎙️"),
-//   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+const podcastSection = {
+  title: emoji("Podcast 🎙️"),
+  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
-//   // Please Provide with Your Podcast embeded Link
-//   podcast: [
-//     ""
-//   ],
-//   display: false // Set false to hide this section, defaults to true
-// };
+  // Please Provide with Your Podcast embeded Link
+  podcast: [
+    ""
+  ],
+  display: false // Set false to hide this section, defaults to true
+};
 
-// const contactInfo = {
-//   title: emoji("Contact Me ☎️"),
-//   subtitle:
-//     "Discuss a project or just want to say hi? My Inbox is open for all.",
-//   number: "(323) 768 0674",
-//   email_address: "contact@davidrakosi.com"
-// };
+const contactInfo = {
+  title: emoji("Contact Me ☎️"),
+  subtitle:
+    "Discuss a project or just want to say hi? My Inbox is open for all.",
+  number: "(323) 768 0674",
+  email_address: "contact@davidrakosi.com"
+};
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "devmarrie", //Replace "twitter" with your twitter username without @
+  userName: "davidrakosi_", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
