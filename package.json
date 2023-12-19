@@ -1,6 +1,6 @@
 {
   "homepage": "https://developerfolio.js.org/",
-  "name": "saadpasta.github.io",
+  "name": "de.portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -44,5 +44,22 @@
   },
   "devDependencies": {
     "prettier": "^2.2.1"
-  }
+  },
+  "description": "👋 Hello, I'm a seasoned software engineer who transitioned into the exciting field of data engineering. With a strong foundation in backend development, I've honed my skills to seamlessly bridge the gap between data and applications. I currently specialize in designing robust data pipelines, optimizing data workflows, and ensuring data reliability for informed decision-making.Here's a glimpse into my world of data engineering:",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "data_engineering_portfolio"
+  },
+  "keywords": [
+    "etl",
+    "pipeline",
+    "spark",
+    "job",
+    "orchestration",
+    "kafka",
+    "workflow"
+  ],
+  "author": "",
+  "license": "ISC"
 }
