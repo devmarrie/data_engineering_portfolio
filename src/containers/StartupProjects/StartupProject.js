@@ -39,15 +39,7 @@ export default function StartupProject() {
                       : "project-card project-card-light"
                   }
                 >
-                  {project.image ? (
-                    <div className="project-image">
-                      <img
-                        src={project.image}
-                        alt={project.projectName}
-                        className="card-image"
-                      ></img>
-                    </div>
-                  ) : null}
+                  
                   <div className="project-detail">
                     <h5
                       className={isDark ? "dark-mode card-title" : "card-title"}
@@ -61,6 +53,27 @@ export default function StartupProject() {
                     >
                       {project.projectDesc}
                     </p>
+                    {project.architectureImage ? (
+                      <div className="project-image">
+                        <img
+                          src={project.architectureImage}
+                          alt={project.projectName}
+                          className="card-image"
+                        ></img>
+                      </div>
+                    ) : null}
+                    {project.technologies}
+                    
+                    {project.dashboardImage ? (
+                    <div className="project-image">
+                      <img
+                        src={project.dashboardImage}
+                        alt={project.projectName}
+                        className="card-image"
+                      ></img>
+                    </div>
+                  ) : null}
+                    {project.achievements}
                     {project.footerLink ? (
                       <div className="project-card-footer">
                         {project.footerLink.map((link, i) => {
