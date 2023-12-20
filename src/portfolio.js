@@ -12,7 +12,7 @@ const greeting = {
   username: "Marriane Akeyo",
   title: "Hello, I'm Marriane",
   subTitle: emoji(
-    "I'm a seasoned data engineer  expirienced in designing robust data pipelines, optimizing data workflows and ensuring data reliability for informed decision-making. I also have  a strong foundation in software engineering specifically backend development. I've honed my skills to seamlessly bridge the gap between data and applications."
+    "I'm a seasoned data engineer  expirienced in designing robust data pipelines, optimizing data workflows and ensuring data reliability for informed decision-making. I also have  a strong foundation in software engineering specifically backend development. I've honed my skills to seamlessly bridge the gap between data and applications. Welcome to my data wonderland !!!"
   ),
   resumeLink:
     "https://drive.google.com/file/d/18SWkuh7NavM5pABm--ks0HVrpBEcMPWj/view?usp=drive_link",
