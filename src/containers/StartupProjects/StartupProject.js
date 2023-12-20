@@ -1,7 +1,7 @@
-import React, {useContext} from "react";
+import React, { useContext } from "react";
 import "./StartupProjects.css";
-import {bigProjects} from "../../portfolio";
-import {Fade} from "react-reveal";
+import { bigProjects } from "../../portfolio";
+import { Fade } from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function StartupProject() {
@@ -9,7 +9,7 @@ export default function StartupProject() {
     var win = window.open(url, "_blank");
     win.focus();
   }
-  const {isDark} = useContext(StyleContext);
+  const { isDark } = useContext(StyleContext);
   if (!bigProjects.display) {
     return null;
   }
@@ -39,13 +39,12 @@ export default function StartupProject() {
                       : "project-card project-card-light"
                   }
                 >
-                  
                   <div className="project-detail">
-                    <h5
+                    <h3
                       className={isDark ? "dark-mode card-title" : "card-title"}
                     >
                       {project.projectName}
-                    </h5>
+                    </h3>
                     <p
                       className={
                         isDark ? "dark-mode card-subtitle" : "card-subtitle"
@@ -53,27 +52,54 @@ export default function StartupProject() {
                     >
                       {project.projectDesc}
                     </p>
-                    {project.architectureImage ? (
+                    <h5
+                      className={isDark ? "dark-mode card-title" : "card-title"}
+                    >
+                      {project.architecture.title}
+                    </h5>
+                    {project.architecture.architectureImage ? (
                       <div className="project-image">
                         <img
-                          src={project.architectureImage}
-                          alt={project.projectName}
+                          src={project.architecture.architectureImage}
+                          alt={project.architecture.title}
+                          // className="card-image"
+                        ></img>
+                      </div>
+                    ) : null}
+                    <h5
+                      className={isDark ? "dark-mode card-title" : "card-title"}
+                    >
+                      {project.technologies.title}
+                    </h5>
+                    <p
+                   className={
+                    isDark ? "dark-mode card-subtitle" : "card-subtitle"
+                  }
+                    >{project.technologies.stack}</p> 
+                    <h5
+                      className={isDark ? "dark-mode card-title" : "card-title"}
+                    >
+                      {project.dashboard.title}
+                    </h5>
+                    {project.dashboard.dashboardImage ? (
+                      <div className="project-image">
+                        <img
+                          src={project.dashboard.dashboardImage}
+                          alt={project.dashboard.title}
                           className="card-image"
                         ></img>
                       </div>
                     ) : null}
-                    {project.technologies}
-                    
-                    {project.dashboardImage ? (
-                    <div className="project-image">
-                      <img
-                        src={project.dashboardImage}
-                        alt={project.projectName}
-                        className="card-image"
-                      ></img>
-                    </div>
-                  ) : null}
-                    {project.achievements}
+                    <h5
+                      className={isDark ? "dark-mode card-title" : "card-title"}
+                    >
+                      {project.achievements.title}
+                    </h5>
+                    <p
+                    className={
+                      isDark ? "dark-mode card-subtitle" : "card-subtitle"
+                    }
+                    >{project.achievements.desc}</p>
                     {project.footerLink ? (
                       <div className="project-card-footer">
                         {project.footerLink.map((link, i) => {
