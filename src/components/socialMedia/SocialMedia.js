@@ -1,6 +1,7 @@
 import React from "react";
 import "./SocialMedia.css";
 import {socialMediaLinks} from "../../portfolio";
+import Button from "../button/Button";
 
 export default function socialMedia() {
   if (!socialMediaLinks.display) {
@@ -115,6 +116,18 @@ export default function socialMedia() {
           <span></span>
         </a>
       ) : null}
+      <div className="button-greeting-div">
+        <Button
+          text="See my resume"
+          newTab={true}
+          href={socialMediaLinks.resumeLink}
+        />
+        <Button
+          text="View my blogs"
+          newTab={true}
+          href={socialMediaLinks.articles}
+        />
+      </div>
     </div>
   );
 }

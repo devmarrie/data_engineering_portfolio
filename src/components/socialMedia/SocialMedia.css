@@ -1,3 +1,7 @@
+.button-greeting-div {
+  display: flex;
+  margin-top: 20px;
+}
 .social-media-div {
   font-size: 2em;
 }
