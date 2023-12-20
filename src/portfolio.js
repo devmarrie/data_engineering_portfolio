@@ -28,6 +28,8 @@ const socialMediaLinks = {
   // gitlab: "https://gitlab.com/",
   // facdata_engineering_portfolioebook: "https://www.facebook.com/",
   articles: "https://dev.to/marrie",
+  resumeLink:
+    "https://drive.google.com/file/d/18SWkuh7NavM5pABm--ks0HVrpBEcMPWj/view?usp=drive_link",
   //stackoverflow: "https://stackoverflow.com/users/13263979/drakosi",
   //instagram: 'https://www.instagram.com/davidrakosi/',
   twitter: 'https://twitter.com/devmarrie',
@@ -220,14 +222,26 @@ const bigProjects = {
     {
       projectName: "Real-Time Data Processing Pipeline",
       projectDesc: "Designed and implemented a real-time data processing pipeline using Apache Kafka and Apache Flink to process and analyze streaming data from IoT devices. Achieved a 30% improvement in data processing speed, leading to faster decision-making for the organization.",
-      architectureImage: "./assets/images/saayaHealthLogo.webp",
-      technologies: "Technologies used: aws, airflow",
-      dashboardImage: "./assets/images/saayaHealthLogo.webp",
-      achievements: "Key Achievements: lorem ipsum",
+      architecture: {
+        title: "Architecture:",
+        architectureImage: require("./assets/images/youtube_analysis.drawio.svg")
+      },
+      technologies: {
+        title: "Technologies Used:",
+        stack: "Apache Airflow, Python, SQL"
+      },
+      dashboard: {
+        title: "Dashboard:",
+        dashboardImage: require("./assets/images/yt_dashboard.png"),
+      },
+      achievements: {
+        title:"Key Achievements:",
+        desc: "Reduced manual data validation efforts by 70%.Implemented anomaly detection for early identification of data quality issues."
+      },
       footerLink: [
         {
           name: "Link To Project",
-          url: "fa"
+          url: "https://github.com/devmarrie/DataEngineering/tree/master/projects/ny_taxi_data"
         }
         //  you can add extra buttons here.
       ]
@@ -235,30 +249,29 @@ const bigProjects = {
     {
       projectName: "Cloud-Based ETL for Scalable Analytics",
       projectDesc: "Developed a cloud-based ETL (Extract, Transform, Load) pipeline using Apache Spark on AWS, handling terabytes of data daily. Enhanced data quality and ensured timely delivery of analytics-ready datasets to downstream applications.",
-      architectureImage: "./assets/images/saayaHealthLogo.webp",
-      technologies: "Technologies used: aws, airflow",
-      dashboardImage: "./assets/images/saayaHealthLogo.webp",
-      achievements: "Key Achievements: lorem ipsum",
+      architecture: {
+        title: "Architecture",
+        architectureImage: require("./assets/images/youtube_analysis.drawio.svg")
+      },
+      technologies: {
+        title: "Technologies Used:",
+        stack: "Apache Spark, AWS (S3, EMR), Python"
+      },
+      dashboard: {
+        title: "Dashboard:",
+        dashboardImage: require("./assets/images/yt_dashboard.png"),
+      },
+      achievements: {
+        title:"Key Achievements:",
+        desc: "Reduced ETL processing time by 50% through parallelization and optimization. Implemented data partitioning strategies for efficient processing of large datasets.."
+      },
       footerLink: [
         {
           name: "Link To Project",
-          url: "fa"
+          url: "https://github.com/devmarrie/DataEngineering/tree/master/projects/youtube_trending/thanos/wacha_tuone"
         }
-        //  you can add extra buttons here.
       ]
     }
-    // {
-    //   image: require("./assets/images/saayaHealthLogo.webp"),
-    //   projectName: "Saayahealth",
-    //   projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    //   footerLink: [
-    //     {
-    //       name: "Visit Website",
-    //       url: "fa"
-    //     }
-    //     //  you can add extra buttons here.
-    //   ]
-    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -330,7 +343,7 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "With Love for orchestrating pipelines, I love to write and teach others what I have learnt.",
 
   blogs: [
     {
@@ -347,7 +360,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -385,9 +398,8 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "(323) 768 0674",
-  email_address: "contact@davidrakosi.com"
+    "I am always eager to take on new challenges and contribute to innovative data solutions. If you're looking for a data engineer with a proven track record of success, let's connect !!",
+  email_address: "annemarrieakeyo42@gmail.com"
 };
 
 // Twitter Section
