@@ -220,23 +220,29 @@ const bigProjects = {
   subtitle: "SOME PERSONAL PROJECTS THAT I HAVE WORKED ON",
   projects: [
     {
-      projectName: "Real-Time Data Processing Pipeline",
-      projectDesc: "Designed and implemented a real-time data processing pipeline using Apache Kafka and Apache Flink to process and analyze streaming data from IoT devices. Achieved a 30% improvement in data processing speed, leading to faster decision-making for the organization.",
+      projectName: "Navigating Supply and Demand Disruptions in Taxi Services Amid Disasters",
+      projectDesc: "This project dives into the impact of natural disasters like COVID-19 on taxi services, revealing key insights for strategic planning, hence offering practical solutions for adapting to challenges. It involved creating a data model showcasing the relationship between the table, creating a bucket, extracting all the dimensions and fact table from the flat file and performing analysis on the data. By analyzing 2020 data.",
       architecture: {
         title: "Architecture:",
-        architectureImage: require("./assets/images/youtube_analysis.drawio.svg")
+        architectureImage: require("./assets/images/nyc_taxi_project.png")
       },
       technologies: {
         title: "Technologies Used:",
-        stack: "Apache Airflow, Python, SQL"
+        stack: "Apache Airflow, Python, SQL, AWS Glue, AWS S3, AWS Athena, Quicksights"
       },
       dashboard: {
         title: "Dashboard:",
-        dashboardImage: require("./assets/images/yt_dashboard.png"),
+        dashboardImage: require("./assets/images/nytaxi_dash.png"),
       },
       achievements: {
         title:"Key Achievements:",
-        desc: "Reduced manual data validation efforts by 70%.Implemented anomaly detection for early identification of data quality issues."
+        desc: ["Identified peak business hours for easy customer maitenance eg alerts incase of long waiting hours.", 
+              "Indentified areas with shortage or surplus of taxies.",
+              "Understood customers habit hence aiding in targeted marketing.", 
+              "Analysed drivers performance and causes of the success or failure of a driver.",
+              "Identified popular locations which are underserved.", 
+              "Explored the feasibility of uncovering new market opportunities."
+        ]
       },
       footerLink: [
         {
@@ -248,14 +254,14 @@ const bigProjects = {
     },
     {
       projectName: "Cloud-Based ETL for Scalable Analytics",
-      projectDesc: "Developed a cloud-based ETL (Extract, Transform, Load) pipeline using Apache Spark on AWS, handling terabytes of data daily. Enhanced data quality and ensured timely delivery of analytics-ready datasets to downstream applications.",
+      projectDesc: "Developed a cloud-based ETL (Extract, Transform, Load) pipeline using Apache Spark on AWS,  assuming an ads company wants to undestand how to run ads successfully on youtube (the most famously used social media platform after google).",
       architecture: {
         title: "Architecture",
         architectureImage: require("./assets/images/youtube_analysis.drawio.svg")
       },
       technologies: {
         title: "Technologies Used:",
-        stack: "Apache Spark, AWS (S3, EMR), Python"
+        stack: "SAM CLI, AWS (S3, Glue, Visual ETL, Athena, Quicksight), Python, SQL"
       },
       dashboard: {
         title: "Dashboard:",
@@ -263,7 +269,12 @@ const bigProjects = {
       },
       achievements: {
         title:"Key Achievements:",
-        desc: "Reduced ETL processing time by 50% through parallelization and optimization. Implemented data partitioning strategies for efficient processing of large datasets.."
+        desc: ["Listed the trending title to use when running the ads.",
+              "Identified the regions the company should consider when running the ads no youtube.",
+              "Identified more specific channels to work with to get more people to view the ads.",
+              "Transformed data from json and csv to parquet for consistency.",
+              " Implemented data partitioning strategies for efficient processing of large datasets."
+        ]
       },
       footerLink: [
         {
@@ -286,51 +297,40 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Software Engineer(Backend)",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "Mastered the intricacies of data generation and storage dynamics, seamlessly integrating these insights to skillfully architect pipelines and craft sophisticated data models.",
+      image: require("./assets/images/alx.png"),
       footerLink: [
         {
-          name: "Certification",
+          name: "View Certification",
           url:
-            ""
-        },
-        {
-          name: "Award Letter",
-          url:
-            ""
-        },
-        {
-          name: "Google Code-in Blog",
-          url:
-            ""
+            "https://drive.google.com/file/d/1TEAMfBYWFHHbbX0HDC3ETt5rj7oF-wm3/view?usp=sharing"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Sql Mastery",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "Demonstrated foundational SQL proficiency through successful completion of a rigorous test, fortifying my data engineering capabilities to efficiently manage and query diverse datasets in designing robust data solutions.",
+      image: require("./assets/images/HackerRank_logo.png"),
       footerLink: [
         {
-          name: "View Google Assistant Action",
+          name: "View Certification",
           url:
-            ""
+            "https://drive.google.com/file/d/1UKnG7lvWlU9oS4XIUKFUP36a8DbyxpU0/view?usp=sharing"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "Data Analysis",
+      subtitle: "Acquired a nuanced understanding of analytics that enhanced my capacity to design and optimize robust data pipelines for informed decision-making.",
+      image: require("./assets/images/afrofem.jpeg"),
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: ""
+          name: "View Certification",
+          url: "https://drive.google.com/file/d/1ugCmeQJwj8CXTRfEcZzv8HeshLCsOgaz/view?usp=sharing"
         }
       ]
     }
