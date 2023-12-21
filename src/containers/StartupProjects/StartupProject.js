@@ -96,10 +96,15 @@ export default function StartupProject() {
                       {project.achievements.title}
                     </h5>
                     <p
-                    className={
-                      isDark ? "dark-mode card-subtitle" : "card-subtitle"
-                    }
-                    >{project.achievements.desc}</p>
+                      className={isDark ? "dark-mode card-subtitle" : "card-subtitle"}
+                    >
+                      {project.achievements.desc.map((point, index) => (
+                        <span key={index}>
+                          - {point}
+                          <br />
+                        </span>
+                      ))}
+                    </p>
                     {project.footerLink ? (
                       <div className="project-card-footer">
                         {project.footerLink.map((link, i) => {
