@@ -1,5 +1,5 @@
 {
-  "homepage": "https://developerfolio.js.org/",
+  "homepage": "https://devmarrie.github.io/data_engineering_portfolio",
   "name": "de.portfolio",
   "version": "0.1.0",
   "private": true,
@@ -7,7 +7,6 @@
     "@apollo/react-hooks": "^3.1.4",
     "apollo-boost": "^0.4.4",
     "colorthief": "^2.3.0",
-    "gh-pages": "^2.1.1",
     "graphql": "^14.5.8",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
@@ -22,7 +21,7 @@
     "predeploy": "npm run build",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "format": "prettier --write \"./**/*.{js,css,json}\""
@@ -43,6 +42,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.1.0",
     "prettier": "^2.2.1"
   },
   "description": "👋 Hello, I'm a seasoned software engineer who transitioned into the exciting field of data engineering. With a strong foundation in backend development, I've honed my skills to seamlessly bridge the gap between data and applications. I currently specialize in designing robust data pipelines, optimizing data workflows, and ensuring data reliability for informed decision-making.Here's a glimpse into my world of data engineering:",
