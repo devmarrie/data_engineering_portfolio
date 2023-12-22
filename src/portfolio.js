@@ -221,7 +221,7 @@ const bigProjects = {
   projects: [
     {
       projectName: "Navigating Supply and Demand Disruptions in Taxi Services Amid Disasters",
-      projectDesc: "This project dives into the impact of natural disasters like COVID-19 on taxi services, revealing key insights for strategic planning, hence offering practical solutions for adapting to challenges. It involved creating a data model showcasing the relationship between the table, creating a bucket, extracting all the dimensions and fact table from the flat file and performing analysis on the data. By analyzing 2020 data.",
+      projectDesc: "Orchestrated a seamless Airflow workflow to efficiently transfer substantial volumes of data from the NYtaxi website to an S3 bucket, followed by its integration into a data warehouse. Employed a star schema design and utilized dbt for table joins, creating a structured framework for comprehensive analysis. This initiative aimed to empower stakeholders with a profound understanding of the influence of external events, such as the COVID-19 pandemic, on taxi services. Thus facilitating informed decision-making and enable adaptive measures to navigate challenges effectively.",
       architecture: {
         title: "Architecture:",
         architectureImage: require("./assets/images/nyc_taxi_project.png")
@@ -254,7 +254,7 @@ const bigProjects = {
     },
     {
       projectName: "Cloud-Based ETL for Scalable Analytics",
-      projectDesc: "Developed a cloud-based ETL (Extract, Transform, Load) pipeline using Apache Spark on AWS,  assuming an ads company wants to undestand how to run ads successfully on youtube (the most famously used social media platform after google).",
+      projectDesc: "Created a robust cloud-based ETL (Extract, Transform, Load) pipeline by leveraging Apache Spark on the AWS platform. The objective of this project was to assist an advertising company in comprehending the key factors contributing to successful ad campaigns on YouTube, one of the most widely utilized social media platforms following Google. The ETL pipeline efficiently extracts relevant data, transforms it into actionable insights, and loads the processed information, enabling the advertising company to make informed decisions for optimizing their ad strategies on YouTube.",
       architecture: {
         title: "Architecture",
         architectureImage: require("./assets/images/youtube_analysis.drawio.svg")
