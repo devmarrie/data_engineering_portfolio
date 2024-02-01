@@ -208,7 +208,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "drakosi99", // Change to your github username to view your profile in Contact Section.
+  githubUserName: "devmarrie", // Change to your github username to view your profile in Contact Section.
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
   display: false // Set false to hide this section, defaults to true
 };
@@ -221,7 +221,7 @@ const bigProjects = {
   projects: [
     {
       projectName: "Navigating Supply and Demand Disruptions in Taxi Services Amid Disasters",
-      projectDesc: "Orchestrated a seamless Airflow workflow to efficiently transfer substantial volumes of data from the NYtaxi website to an S3 bucket, followed by its integration into a data warehouse. Employed a star schema design and utilized dbt for table joins, creating a structured framework for comprehensive analysis. This initiative aimed to empower stakeholders with a profound understanding of the influence of external events, such as the COVID-19 pandemic, on taxi services. Thus facilitating informed decision-making and enable adaptive measures to navigate challenges effectively.",
+      projectDesc: "Orchestrated a seamless airflow workflow to scrape 2020 data from Ny-Taxi website , design, deploy, and maintain an AWS based data processing system that analyses the effects of Covid-19 on the business during that year.",
       architecture: {
         title: "Architecture:",
         architectureImage: require("./assets/images/nyc_taxi_project.png")
@@ -254,7 +254,7 @@ const bigProjects = {
     },
     {
       projectName: "Cloud-Based ETL for Scalable Analytics",
-      projectDesc: "Created a robust cloud-based ETL (Extract, Transform, Load) pipeline by leveraging Apache Spark on the AWS platform. The objective of this project was to assist an advertising company in comprehending the key factors contributing to successful ad campaigns on YouTube, one of the most widely utilized social media platforms following Google. The ETL pipeline efficiently extracts relevant data, transforms it into actionable insights, and loads the processed information, enabling the advertising company to make informed decisions for optimizing their ad strategies on YouTube.",
+      projectDesc: "Developed a cloud-based ETL (Extract, Transform, Load) pipeline using Apache Spark on AWS. that ingests YouTube ads performance data and  provides insights to advertising companies as to weather YouTube is a good source of leads to market in.",
       architecture: {
         title: "Architecture",
         architectureImage: require("./assets/images/youtube_analysis.drawio.svg")
